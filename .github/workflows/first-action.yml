@@ -1,4 +1,3 @@
-
 name: First Workflow # The name of the workflow
 on: workflow_dispatch # on -> tells when a workflow should be activated
 jobs:
