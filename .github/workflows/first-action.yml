@@ -1,0 +1,12 @@
+
+name: First Workflow # The name of the workflow
+on: workflow_dispatch # on -> tells when a workflow should be activated
+jobs:
+  first-job: # The name does not matter. But this is a job
+    runs-on: ubuntu-latest# defines the enviroments we can us
+    steps: 
+      - name: Print Greeting # This is a sing step. This is 
+        run: echo "Hello world!"
+      - name: Print Goodby
+        run: echo "Done - bye!" 
+	
